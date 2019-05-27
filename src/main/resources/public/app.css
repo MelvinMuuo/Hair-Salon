@@ -7,7 +7,28 @@
   margin-top: -1cm;
   margin-left: 12cm;
   font-family: sans-serif;
+  letter-spacing: 3px;
+}
+.header2{
+  color: #fdc136;
 }
 .logo{
   margin-left: 11cm;
+}
+.quote1 {
+  font-size: 2.5cm;
+  margin-top: -14cm;
+  margin-left: 4cm;
+  color: white;
+  font-family: Playfair Display;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.quote2 {
+  font-size: 1cm;
+  margin-top: 0cm;
+  margin-left: 5cm;
+  color: white;
+  font-family: serif;
+  letter-spacing: 3px;
 }
