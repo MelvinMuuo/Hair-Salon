@@ -1,4 +1,19 @@
 <h1>$client.getName()</h1>
+<h1>$client.getVisit()</h1>
+<h1>$client.getNumber()</h1>
 
-<a href="/clients/new">Add another task</a>
-<a href="/clients">All tasks</a>
+<h2>Edit task:</h2>
+
+<form action="/stylists/$client.getStylistId()/clients/$client.getId()" method="post">
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text">
+
+  <label for="visit">Visit</label>
+  <input id="visit" name="visit" type="text">
+
+  <label for="number">Number</label>
+  <input id="number" name="number" type="text">
+  <button type="submit" class="btn btn-info">Update client</button>
+</form>
+
+<a href="/stylists/$stylist.getId()">Return to $stylist.getName()</a>
