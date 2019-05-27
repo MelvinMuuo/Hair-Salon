@@ -13,7 +13,7 @@
   color: #fdc136;
 }
 .logo{
-  margin-left: 11cm;
+  margin-left: 12cm;
 }
 .quote1 {
   font-size: 2.5cm;
@@ -31,4 +31,59 @@
   color: white;
   font-family: serif;
   letter-spacing: 3px;
+}
+.secondimage {
+  margin-top: 12cm;
+}
+.quote3{
+  height: 4cm;
+  margin-top: -8cm;
+  background-color: white;
+  margin-left: 14cm;
+  font-size: 1cm;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: black;
+}
+.button1{
+  border-radius: 30px;
+  margin-left: 18cm;
+  margin-top: -10cm;
+  width: 6cm;
+  height: 1.5cm;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
+}
+.thirdimage {
+  float: right;
+  margin-right: 3cm;
+  margin-top: -2cm;
+}
+.quote4{
+  height: 4cm;
+  margin-top: 8cm;
+  background-color: white;
+  margin-right: 7cm;
+  font-size: 1cm;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: black;
+}
+.button2{
+  border-radius: 30px;
+  margin-left: 3cm;
+  margin-top: -1cm;
+  width: 6cm;
+  height: 1.5cm;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
+}
+.footer{
+  background-color: black;
+  height: 2.5cm;
+  margin-top: 6cm;
 }
