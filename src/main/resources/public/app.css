@@ -163,8 +163,75 @@
   background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
 }
 .formintro{
-  font-size: 0.6cm;
+  font-size: 0.7cm;
   font-family: serif;
   margin-left: 12cm;
   margin-top: 2cm;
+  color: #fdc136;
+}
+#name{
+  margin-top: 20px;
+  margin-left: 3cm;
+  width: 80%;
+  border-radius: 12px;
+  height: 40px;
+}
+#age{
+  margin-top: 20px;
+  margin-left: 3cm;
+  width: 80%;
+  border-radius: 12px;
+  height: 40px;
+}
+#year{
+  margin-top: 20px;
+  margin-left: 3cm;
+  width: 80%;
+  border-radius: 12px;
+  height: 40px;
+}
+#rate{
+  margin-top: 20px;
+  margin-left: 3cm;
+  width: 80%;
+  border-radius: 12px;
+  height: 40px;
+}
+.labelform{
+  color: black;
+  font-size: 0.6cm;
+  font-weight: bold;
+  font-family: serif;
+  letter-spacing: 2px;
+  margin-left: 12.5cm;
+  margin-top: 20px;
+}
+.button4{
+  border-radius: 30px;
+  margin-left: 11cm;
+  margin-top: 1cm;
+  width: 6cm;
+  height: 1.5cm;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
+}
+.quote52 {
+  font-size: 1.5cm;
+  margin-top: 0cm;
+  margin-left: 11cm;
+  color: white;
+  font-family: Playfair Display;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.quote62 {
+  font-size: 0.5cm;
+  margin-top: -5cm;
+  margin-left: 11.5cm;
+  color: white;
+  font-family: Playfair Display;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
