@@ -1,23 +1,37 @@
-<h1>$client.getName()</h1>
-<h1>$client.getVisit()</h1>
-<h1>$client.getNumber()</h1>
-
-<h2>Edit task:</h2>
-
+<div class="whitespace">
+</div>
+<p class="first1image"><img src='/images/salon1.jpg' alt='A photo of a salon.' height="700px" width="1140px"/></p>
+<div class="quote62">
+  </h2>Home -> Client Details</h2>
+</div>
+<div class="quote52">
+  </h2>Client Details</h2>
+</div>
+<h1 class="h1page2">Client Details</h1>
+<div class="blackest">
+  <p class="stylistdescription">Name of client:<br><span class="stylistdescription2">$client.getName()</span></p>
+  <hr class="golden">
+  <p class="stylistdescription">Number of visits client has made:<br><span class="stylistdescription2">$client.getVisit()</span></p>
+  <hr class="golden">
+  <p class="stylistdescription">Phone number of client::<br><span class="stylistdescription2">$client.getNumber()</span></p>
+  <hr class="golden">
+</div>
+<h1 class="h1page2">Edit client:</h1>
 <form action="/stylists/$client.getStylistId()/clients/$client.getId()" method="post">
-  <label for="name">Name</label>
-  <input id="name" name="name" type="text">
+  <label for="name" class="labelform">Name:</label><br>
+  <input id="name" name="name" type="text"><br><br>
 
-  <label for="visit">Visit</label>
-  <input id="visit" name="visit" type="text">
+  <label for="visit" class="labelform">Visit:</label><br>
+  <input id="visit" name="visit" type="text"><br><br>
 
-  <label for="number">Number</label>
-  <input id="number" name="number" type="text">
-  <button type="submit" class="btn btn-info">Update client</button>
+  <label for="number" class="labelform">Number:</label><br>
+  <input id="number" name="number" type="text"><br><br>
+
+<button class="button4" type="submit">Update client</button>
 </form>
 
 <form action="/stylists/$client.getStylistId()/clients/$client.getId()/delete" method="post">
-  <button type="submit" class="btn btn-danger" id="delete-client">Delete Client</button>
+  <button type="submit" class="button4" id="delete-client">Delete Client</button>
 </form>
 
 <a href="/stylists/$stylist.getId()">Return to $stylist.getName()</a>
