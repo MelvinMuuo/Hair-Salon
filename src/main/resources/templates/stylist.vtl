@@ -1,12 +1,32 @@
-<h1>$stylist.getName()</h1>
-<h1>$stylist.getAge()</h1>
-<h1>$stylist.getYear()</h1>
-<h1>$stylist.getRate()</h1>
-
-<ul>
-  #foreach($client in $stylist.getClients())
-   <li><a href="/stylists/$stylist.getId()/clients/$client.getId()">$client.getName()</a></li>
-  #end
-</ul>
-<a href="/stylists/$stylist.getId()/clients/new">Add a new client</a>
-<a href="/stylists">All stylists</a>
+<div class="whitespace">
+</div>
+<p class="first1image"><img src='/images/salon1.jpg' alt='A photo of a salon.' height="700px" width="1140px"/></p>
+<div class="quote62">
+  </h2>Home -> Stylist Details</h2>
+</div>
+<div class="quote52">
+  </h2>Stylist Details</h2>
+</div>
+<h1 class="h1page2">Stylist Details</h1>
+<div class="blackest">
+  <p class="stylistdescription">Name of stylist:<br><span class="stylistdescription2">$stylist.getName()</span></p>
+  <hr class="golden">
+  <p class="stylistdescription">Age of stylist:<br><span class="stylistdescription2">$stylist.getAge()</span></p>
+  <hr class="golden">
+  <p class="stylistdescription">Number of years stylist has worked:<br><span class="stylistdescription2">$stylist.getYear()</span></p>
+  <hr class="golden">
+  <p class="stylistdescription">Rate of stylist:<br><span class="stylistdescription2">$stylist.getRate()</span></p>
+</div>
+<h1 class="h1page2">List of clients</h1>
+<p class="formintro2">Here are your clients:</p>
+<div class="list2">
+  <hr class="goldline">
+  <ul class="actuallist1">
+    #foreach($client in $stylist.getClients())
+     <li><a href="/stylists/$stylist.getId()/clients/$client.getId()">$client.getName()</a></li>
+    #end
+  </ul>
+  <hr class="goldline">
+</div>
+<button class="button10"><a href="/stylists/$stylist.getId()/clients/new">Add a new client</a></button>
+<button class="button11"><a href="/stylists">Stylists</a></button>

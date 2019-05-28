@@ -1,18 +1,27 @@
-<h1>Add a task to $stylist.getName()</h1>
+<div class="whitespace">
+</div>
+<p class="first1image"><img src='/images/salon1.jpg' alt='A photo of a salon.' height="700px" width="1140px"/></p>
+<div class="quote62">
+  </h2>Home -> Client Form</h2>
+</div>
+<div class="quote52">
+  </h2>Client Form</h2>
+</div>
+<h1 class="h1page2">Client Form</h1>
+<p class="formintro">Add a task to $stylist.getName()</p>
 
 <form action="/clients" method="post">
   <input id="stylistId" name="stylistId" type="hidden" value="$stylist.getId()">
 
   <div class="form-group">
-    <label for="name">Name</label>
-    <input id="name" name="name" type="text" class="form-control">
+    <label for="name" class="labelform">Name of client:</label><br>
+    <input id="name" name="name" type="text" class="form-control"><br><br>
 
-    <label for="visit">Visit</label>
-    <input id="visit" name="visit" type="text" class="form-control">
+    <label for="visit" class="labelform">Number of visits client has made:</label><br>
+    <input id="visit" name="visit" type="text" class="form-control"><br><br>
 
-    <label for="number">Number</label>
-    <input id="number" name="number" type="text" class="form-control">
+    <label for="number" class="labelform">Client's phone number:</label><br>
+    <input id="number" name="number" type="text" class="form-control"><br><br>
   </div>
-
-  <button type="submit" class="btn btn-success">Add Client</button>
+  <button class="button43" type="submit">Add Client</button>
 </form>

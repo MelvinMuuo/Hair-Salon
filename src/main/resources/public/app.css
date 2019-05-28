@@ -149,7 +149,6 @@
   font-family: serif;
   margin-left: 5cm;
   font-weight: bold;
-
 }
 .button3{
   border-radius: 30px;
@@ -234,4 +233,116 @@
   font-family: Playfair Display;
   font-weight: bold;
   letter-spacing: 3px;
+}
+.titlelist2{
+  font-size: 0.7cm;
+  font-family: serif;
+  margin-top: 2cm;
+  margin-left: 9cm;
+  font-weight: bold;
+}
+.button5{
+  border-radius: 30px;
+  margin-left: 10cm;
+  margin-top: 1.5cm;
+  width: 6cm;
+  height: 1.5cm;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
+}
+.quote53 {
+  font-size: 1.5cm;
+  margin-top: 0cm;
+  margin-left: 12cm;
+  color: white;
+  font-family: Playfair Display;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.blackest{
+  background-color: #424949;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  border-radius: 12px;
+  margin-top: 2cm;
+}
+.golden{
+  border-top: 3px dotted #F39C12;
+  margin-top: 1cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+.stylistdescription{
+  font-size: 0.7cm;
+  margin-left: 6cm;
+  font-family: serif;
+  color: #fdc136;
+}
+.stylistdescription2{
+  color: grey;
+  margin-left: 2cm;
+
+}
+.formintro2{
+  font-size: 0.8cm;
+  font-family: serif;
+  margin-left: 11.5cm;
+  margin-top: 1cm;
+  color: #fdc136;
+}
+.list2{
+  margin-left: 7cm;
+  margin-right: 6cm;
+  margin-top: 1cm;
+  background-color: #F8F9F9;
+  border-radius: 8px;
+}
+.button10{
+  border-radius: 30px;
+  margin-left: 12cm;
+  margin-top: 2cm;
+  width: 6cm;
+  height: 1.5cm;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
+}
+.button11{
+  border-radius: 30px;
+  margin-left: 12cm;
+  margin-top: 1cm;
+  width: 6cm;
+  height: 1.5cm;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
+}
+#visit{
+  margin-top: 20px;
+  margin-left: 3cm;
+  width: 80%;
+  border-radius: 12px;
+  height: 40px;
+}
+#number{
+  margin-top: 20px;
+  margin-left: 3cm;
+  width: 80%;
+  border-radius: 12px;
+  height: 40px;
+}
+.button43{
+  border-radius: 30px;
+  margin-left: 12cm;
+  margin-top: 1cm;
+  width: 6cm;
+  height: 1.5cm;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
 }
