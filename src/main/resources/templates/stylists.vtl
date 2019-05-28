@@ -1,7 +1,24 @@
-<h1>All stylists</h1>
-<ul>
-  #foreach ($stylist in $stylists)
-    <li><a href="/stylists/$stylist.getId()">$stylist.getName()</a></li>
-  #end
-</ul>
-<a href="/stylists/new">Add New Stylist</a>
+<div class="whitespace">
+</div>
+<p class="first1image"><img src='/images/salon1.jpg' alt='A photo of a salon.' height="700px" width="1140px"/></p>
+<div class="quote6">
+  </h2>Home -> Stylist</h2>
+</div>
+<div class="quote5">
+  </h2>Stylists</h2>
+</div>
+<h1 class="h1page2">All stylists</h1>
+<p class="second1image"><img src='/images/stylistishish.jpg' alt='A photo of a our stylist.' height="400px" width="350px"/></p>
+<p class="third1image"><img src='/images/stylistsmile.jpg' alt='A photo of a our stylist.' height="400px" width="350px"/></p>
+<p class="fourth1image"><img src='/images/stylistshave.webp' alt='A photo of a our stylist.' height="400px" width="350px"/></p>
+<div class="list1">
+  <hr class="goldline">
+  <p class="titlelist">Here are your stylist:</p>
+  <ul class="actuallist1">
+    #foreach ($stylist in $stylists)
+      <li><a href="/stylists/$stylist.getId()">$stylist.getName()</a></li>
+    #end
+  </ul>
+  <hr class="goldline">
+</div>
+<button class="button3"><a href="/stylists/new">Add New Stylist</a></button>

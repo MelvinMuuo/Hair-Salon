@@ -87,3 +87,84 @@
   height: 2.5cm;
   margin-top: 6cm;
 }
+.whitespace{
+  height: 2cm;
+}
+.quote5 {
+  font-size: 1.5cm;
+  margin-top: 0cm;
+  margin-left: 13cm;
+  color: white;
+  font-family: Playfair Display;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.quote6 {
+  font-size: 0.5cm;
+  margin-top: -5cm;
+  margin-left: 13.5cm;
+  color: white;
+  font-family: Playfair Display;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.h1page2{
+  font-size: 1.4cm;
+  font-family: serif;
+  margin-top: 4cm;
+  margin-left: 11cm;
+  font-weight: bold;
+}
+.second1image{
+  margin-top: 3cm;
+}
+.third1image{
+  margin-left: 20cm;
+  margin-top: -7cm;
+}
+.fourth1image{
+  margin-left: 10cm;
+  margin-top: -13cm;
+}
+.list1{
+  margin-left: 7cm;
+  margin-right: 6cm;
+  margin-top: 4cm;
+  background-color: #F8F9F9;
+  border-radius: 8px;
+}
+.actuallist1{
+  margin-left: 6cm;
+  margin-right: 4cm;
+  font-size: 0.5cm;
+  font-family: sans-serif;
+  line-height: 1cm;
+}
+.goldline{
+  border-top: 3px dotted #F39C12;
+  margin-top: 3cm;
+}
+.titlelist{
+  font-size: 0.7cm;
+  font-family: serif;
+  margin-left: 5cm;
+  font-weight: bold;
+
+}
+.button3{
+  border-radius: 30px;
+  margin-left: 13cm;
+  margin-top: 1cm;
+  width: 6cm;
+  height: 1.5cm;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ba9236 0%, #fdc136 51%, #ba9236 100%);
+}
+.formintro{
+  font-size: 0.6cm;
+  font-family: serif;
+  margin-left: 12cm;
+  margin-top: 2cm;
+}
