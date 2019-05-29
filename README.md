@@ -1,5 +1,5 @@
 # Hair-Salon
-Hair Salom is an app in which the user is able able to add a list of the stylists, and for each stylist, add clients who see that stylist. The stylists work independently, so each client only belongs to a single stylist.
+Hair Salon is an app in which the user is able able to add a list of the stylists, and for each stylist, add clients who see that stylist. The stylists work independently, so each client only belongs to a single stylist.
 #### By **{Melvin Muuo}**
 ## Description
 Hair Salom is an app in which the user is able able to add a list of the stylists, and for each stylist, add clients who see that stylist. The stylists work independently, so each client only belongs to a single stylist.
